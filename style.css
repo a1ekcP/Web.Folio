@@ -188,6 +188,7 @@ label.header__menu{
 
 /*------------MAIN----------------*/
 .main{
+    margin-bottom: 146px;
     position: relative;
     min-height: 100vh;
     background: url(img/main/main.png) no-repeat bottom right, #010032;;
@@ -288,4 +289,109 @@ a.main__btn::after{
         width: 100%;
     }
 }
- 
+ /*------------MAIN----------------*/
+
+
+
+
+/*--------------ABOUT-------------*/
+.section__title{
+    margin-bottom: 22px;
+}
+.section__title-img{
+    margin-right: 20px;
+}
+.section__title-title{
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #4543E8;
+}
+
+.achievs{
+    margin-bottom: 188px;
+}
+.achievs__wrap{
+    display: flex;
+    gap: 99px;
+}
+
+.achievs__review{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.rvw__stars{
+    margin-bottom: 23px;
+}
+.rvw__stars>img:not(:last-child){
+    margin-right: 7px;
+}
+.rvw__comment{
+    font-size: 19px;
+    line-height: 28px;
+    color: #000000;
+
+    margin-bottom: 27px;
+}
+.rvw__autor{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.rvw__img{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+.rvw__img>img{
+    width: 100%;
+    height: auto;
+}
+
+.rvw__autor-desc{
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+.rvw__autor-name{
+    font-size: 18px;
+
+    margin-bottom: 7px;
+}
+
+
+.title__h3{
+    font-size: 48px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.achiev__title{
+    margin-bottom: 74px;
+}
+.achiev__achievs{
+    display: flex;
+    gap: 64px;
+
+    margin-bottom: 72px;
+}
+
+.achiev__num{
+    font-size: 60px;
+    line-height: 66px;
+    color: #4543E8;
+
+    margin-bottom: 8px;
+}
+.achiev__text{
+    font-size: 21px;
+    line-height: 31px;
+    color: #000000;
+}
+.achiev__logos{
+    display: flex;
+    gap: 58px;
+}
