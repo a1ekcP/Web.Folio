@@ -393,5 +393,74 @@ a.main__btn::after{
 }
 .achiev__logos{
     display: flex;
-    gap: 58px;
+    gap: 40px;
+}
+
+
+
+@media (max-width: 1200px){
+    .achievs__review {
+        justify-content: center;
+    }
+    .achiev__logos {
+        gap: 40px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .achiev__logos {
+        flex-wrap: wrap;
+        margin-left: -100%;
+        justify-content: center;
+    }
+}
+@media (max-width: 968px){
+    .achiev__title {
+        font-size: 36px;
+    }
+    .achiev__num {
+        font-size: 45px;
+    }
+    .achiev__achievs {
+        gap: 15px;
+    }
+}
+@media (max-width: 916px){
+    .achievs__wrap {
+        flex-direction: column-reverse;
+    }
+    .achiev__title {
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+    .achiev__achievs {
+        gap: 0;
+        justify-content: space-around;
+    }
+    .achiev__logos {
+        flex-wrap: wrap;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .achievs__review {
+        max-width: 100%;
+        justify-content: baseline;
+    }
+}
+@media (max-width: 398px){
+    .achiev__achievs {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+/*--------------ABOUT-------------*/
+
+
+
+
+/*--------------WORK-------------*/
+.work__title{
+    margin-bottom: 26px;
 }
