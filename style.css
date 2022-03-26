@@ -748,7 +748,7 @@ a.main__btn::after{
     margin-bottom: 15px;
 }
 .testimonials__nav{
-    width: 118px;
+    width: 128px;
     margin: 0 auto;
 }
 .testimonials__link{
@@ -760,3 +760,70 @@ a.main__btn::after{
 }
 
 /*-------------TESTIMONIALS----------*/
+
+
+
+/*-------------PROCESS----------*/
+.process{
+    padding: 144px 0 87px 0;
+}
+.process__title{
+    margin-bottom: 13px;
+}
+.process__title-box{
+    margin-bottom: 165px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.process__subtitle{
+    font-family: 'Space Grotesk';
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 1.2px;
+    color: #000000;
+
+    max-width: 488px;
+}
+.process__title-text{
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+
+    max-width: 406px;
+}
+
+.process__items{
+    display: flex;
+    justify-content: space-between;
+}
+.process__item{
+    max-width: 323px;
+}
+.progress__num{
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress__num>span{
+    font-size: 48px;
+    line-height: 54px;
+    color: #4543E8;
+}
+.progress__num>img{
+    width: 74px;
+    height: 24px;
+}
+.progress__title{
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+
+    margin-bottom: 11px;
+}
+.process__text{
+    font-size: 12px;
+    line-height: 28px;
+    color: #000000;
+}
