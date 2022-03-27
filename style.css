@@ -759,6 +759,30 @@ a.main__btn::after{
     margin-right: 22px;
 }
 
+
+@media (max-width: 968px){
+    .testimonials__items {
+        gap: 30px;
+    }
+}
+@media (max-width: 768px){
+    .testimonials__items {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .testimonials__item{
+        max-width: 100%;
+    }
+    .testimonials {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 500px){
+    .testimonials__subtitle {
+        font-size: 48px;
+    }
+}
+
 /*-------------TESTIMONIALS----------*/
 
 
@@ -827,3 +851,64 @@ a.main__btn::after{
     line-height: 28px;
     color: #000000;
 }
+/*-------------PROCESS----------*/
+
+
+/*-------------SHOP----------*/
+.shop{
+    padding-top: 87px;
+    padding-bottom: 70px;
+}
+
+.shop__title{
+    text-align: center;
+    margin-bottom: 23px;
+}
+.shop__subtitle{
+    text-align: center;
+}
+.shop  h2:last-of-type{
+    margin-bottom: 80px;
+}
+
+.shop__items{
+    display: flex;
+    gap: 40px;
+
+    margin-bottom: 82px;
+}
+.shop__item{
+    max-width: calc(33.333% - 40px);
+}
+.shop__img{
+    margin-bottom: 32px;
+    object-fit: cover;
+}
+.shop__about{
+    font-size: 24px;
+    line-height: 30px;
+    color: #010032;
+
+    margin-bottom: 6px;
+}
+.shop__text{
+    font-size: 18px;
+    line-height: 28px;
+    color: #010032
+}
+
+a.shop__link{
+    display: inline-block;
+    text-align: center;
+    padding: 12px 38px 12px 0;
+    border-bottom: 2px solid rgba(69, 67, 232, 0.2);
+    background: url(icon/shop/arrow-right.png) no-repeat right;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 18px;
+    line-height: 19px;
+    color: #4543E8;
+}   
+/*-------------SHOP----------*/
