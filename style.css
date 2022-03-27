@@ -1109,3 +1109,66 @@ h5.posts__title-cptn{
     }
 }
 /*-------------BLOG----------*/
+
+
+
+/*-------------LINKS----------*/
+.links__wrap{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.links__work{
+    padding: 104px 15px 135px 15px;
+    background: url("img/links/1.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    width: 50%;
+}
+.links__work:hover{
+    background: #4543E8;
+}
+.links__title{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-bottom: 23px;
+}
+.links__text{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-bottom: 44px;
+}
+.links__about{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFF;
+
+    border-bottom: 1px solid #D8D8EB;
+    padding: 0 40px 10px 0;
+    max-height: 36px;
+
+    background: url("icon/links/arrow-white.png") no-repeat 95% top;
+}
+.links__about:hover{
+    background-position: 100% top;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 700px){
+    .links__wrap {
+        flex-direction: column;
+    }
+    .links__work {
+        width: 100%;
+    }
+}
+/*-------------LINKS----------*/
